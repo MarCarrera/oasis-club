@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "598636200191",
+    "project_id": "club-futbol-abh",
+    "storage_bucket": "club-futbol-abh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598636200191:android:1ffdd91318faf22ae04cca",
+        "android_client_info": {
+          "package_name": "com.bitala.clubfutbol"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS1dYbGvRnioWXn4NlBhZrbT8V9OuDW6g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

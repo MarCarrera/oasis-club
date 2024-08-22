@@ -1,0 +1,9 @@
+{
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "cmake.sourceDirectory": "/Users/erickgamezsanchez/Documents/bitala/marcarrera/Android/flutter/movil-club-futbol/movilFutABH/linux",
+  "cSpell.words": [
+    "notificación",
+    "Título"
+  ]
+}

@@ -1,0 +1,68 @@
+name: clubfutbol
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.4 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+  convex_bottom_bar: ^3.0.0 # Agrega una versión específica para convex_bottom_bar
+  cupertino_icons: ^1.0.6
+  # Agrega la dependencia http para hacer solicitudes a una API
+  http: #https://pub.dev/packages/http
+  # Agrega la dependencia image_picker para seleccionar imágenes
+  image_picker: ^0.8.5+3
+  path_provider: ^2.1.3
+  shared_preferences: ^2.2.3
+
+  firebase_core: #https://pub.dev/packages/firebase_core
+  flutter_local_notifications: #https://pub.dev/packages/flutter_local_notifications
+  firebase_messaging: ^15.0.1
+  firebase_in_app_messaging: ^0.8.0+2
+
+  # Agrega la dependencia google_fonts para usar fuentes de Google
+  google_fonts: ^5.1.0
+  animate_do: #https://pub.dev/packages/animate_do
+  change_app_package_name: ^1.2.0
+
+  intl: ^0.19.0
+  mime: #https://pub.dev/packages/mime
+  http_parser: #https://pub.dev/packages/http_parser
+  salomon_bottom_bar: #https://pub.dev/packages/salomon_bottom_bar
+  auto_size_text: #https://pub.dev/packages/auto_size_text
+  font_awesome_flutter: #https://pub.dev/packages/font_awesome_flutter
+  shimmer: #https://pub.dev/packages/shimmer
+  expansion_tile_card: #https://pub.dev/packages/expansion_tile_card
+  #mar
+  dot_navigation_bar: ^1.0.2
+  flutter_feather_icons: ^2.0.0
+  flutter_svg: ^1.0.0
+  provider: #https://pub.dev/packages/provider
+  day_night_switcher: ^0.2.0+1
+  scaled_list: ^2.0.0
+  url_launcher:
+  connectivity: ^3.0.6
+  photo_view: #https://pub.dev/packages/photo_view
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/launcher_icon.jpg"
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/icons/
+  #   - images/a_dot_ham.jpeg
